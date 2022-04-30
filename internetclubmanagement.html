@@ -1,0 +1,2983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+
+
+	    element.style.backgroundColor = "rgba(255,0,0,0.3)";
+	   
+       			   
+       			    
+       			    const text1 = document.createTextNode("60 dinara");
+       			    var sumanovca1 = document.getElementById("suma");
+       			    sumanovca1.appendChild(text1);
+
+
+
+
+<script type="text/javascript">
+ function enter(elem){
+     elem.style.backgroundColor = '#FF0000';
+ }
+
+ function leave(elem){
+     elem.style.backgroundColor = '#FFFFFF';
+ }
+</script>
+ <div onmouseover="enter(this)" onmouseout="leave(this)">
+       Some Text
+ </div> -->
+<head>
+        <title>InternetClubManagement</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+
+
+<div id="myDiv1" style="margin-left: 7px; padding: 0px;">
+<span style='font-family: "Lucida Console"; line-height: 12px; font-size: 12px; display: inline-block;'>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br>██░▄▄▀██░▄▄▄██░▄▄▄░██░█▀▄██░▄▄▄░██<br>██░▄▄▀██░▄▄▄██▄▄▄▀▀██░▄▀███░███░██<br>██░▀▀░██░▀▀▀██░▀▀▀░██░██░██░▀▀▀░██<br>▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</span>
+
+<div class="icm">
+<h4>Internet Club Management v1.0</h4>
+</div>
+
+
+
+<input id="sahat" style=" margin-left: 78px; background: rgba(255, 255, 255, 0.0); color: white; width: 150px; border: none; font-size: 25px;"></input>
+<script>
+   function sleep(milliseconds) {  
+      return new Promise(resolve => setTimeout(resolve, milliseconds));
+   }  
+   kolikovreme();
+   
+   
+   async function kolikovreme() {  
+  	                   
+         await sleep(1000);
+var date = new Date();
+var n = date.toDateString();
+var time = date.toLocaleTimeString();
+sumapss1 = document.getElementById("sahat");
+sumapss1.value = time;
+kolikovreme();
+}
+</script>
+<div class="icm2">
+<hr>
+</div>
+</div>
+
+<div class="kalkulator">
+
+    <div class="container">
+
+    <br>
+
+    <table>
+
+        <tr>
+
+            <td colspan="3"><input type='text' id='result' class ='screen' style="text-align: right;" placeholder="Waiting for input                    "></td>
+
+            <td>
+
+                <input type='button' value = 'C' onclick="clearScreen()" class="clear"/>
+
+            </td>
+
+        </tr>
+
+    </table>
+    
+    </div>
+
+   
+   
+   
+    <div class="keys">
+
+    <input type="button" value="7" class="button" onClick="display('7')">
+
+    <input type="button" value="8" class="button " onClick="display('8')">
+
+    <input type="button" value="9" class="button" onClick="display('9')">
+    
+    <input type="button" value="*" class="operator" onClick="display('*')">
+    <br>
+
+
+
+
+    <input type="button" value="4" class="button" onClick="display('4')">
+
+    <input type="button" value="5" class="button" onClick="display('5')">
+
+    <input type="button" value="6" class="button" onClick="display('6')">
+    
+    <input type="button" value="-" class="operator" onClick="display('-')">
+    <br>
+    
+    
+   
+  
+
+    <input type="button" value="1" class="button" onClick="display('1')">
+
+    <input type="button" value="2" class="button" onClick="display('2')">
+
+    <input type="button" value="3" class="button" onClick="display('3')">
+
+    <input type="button" value="+" class="operator" onClick="display('+')">
+    <br>
+
+
+
+
+    <input type="button" value="0" class="button" onClick="display('0')">
+    
+    <input type="button" value="." class="button" onClick="display('.')">
+    
+    <input type="button" value="/" class="operator" onClick="display('/')">
+    
+    <input type="button" value= "=" class="button equal-sign" onClick="solve()">
+<br>
+<br>
+<hr>
+<br>
+</div> 
+	
+	
+</div>
+<script>
+function display(val){
+
+    document.getElementById('result').value += val
+
+    return val
+
+}
+
+function solve(){
+
+    let x = document.getElementById('result').value
+
+    let y = eval(x);
+
+    document.getElementById('result').value = y
+
+    return y
+
+}
+
+
+function clearScreen(){
+
+    document.getElementById('result').value = ''
+
+}
+
+
+</script>
+
+  <textarea name="" id="tekstic" cols="41" rows="36" placeholder="notepad" style="margin-left: 5px; background-color: #000000; color: white;"></textarea>
+  <br>
+  <a style="margin-left: 13px;" href="https://github.com/zakirMedjugorac" target="_blank">https://github.com/zakirMedjugorac</a>
+
+<script>
+logo();
+function logo() {
+ 	element = document.getElementById("myDiv1");
+   function sleep(milliseconds) {  
+      return new Promise(resolve => setTimeout(resolve, milliseconds));  
+   }  
+   fun();
+   
+   
+   async function fun() {  
+          		            
+    		        
+    		            element.style.color = "red";         
+         await sleep(1000);  
+           		   
+    		            element.style.color = "white";
+    		await sleep(1000);              
+    		           
+    		            element.style.color = "red";         
+         await sleep(1000);  
+           		    
+    		            element.style.color = "white";
+    		await sleep(1000);
+    		fun();      		           
+         
+      }  
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	
+		function countdownps1() {
+			setTimeout('Decrementps1()', 60);
+		}
+
+		
+		function Decrementps1() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutesps1");
+				secondsps = document.getElementById("secondsps1");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secsps1;
+				}
+
+				
+				else {
+					minutesps.value = getminutesps1();
+					secondsps.value = getsecondsps1();
+				}
+				
+				if (minsps1 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minsps1 < 0) {
+					var back = document.getElementById("pss1");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapss1 = document.getElementById("sumaps1");
+       			    		sumapss1.value = xps1.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secsps1--;
+					setTimeout('Decrementps1()', 1000);
+				}
+			}
+		}
+
+		function getminutesps1() {
+			
+			minsps1 = Math.floor(secsps1 / 60);
+			return minsps1;
+		}
+
+		function getsecondsps1() {
+
+			return secsps1 - Math.round(minsps1 * 60);
+		}
+		
+		
+		function hereps1(){
+		var backps1 = document.getElementById("pss1");
+		backps1.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xps1 = document.getElementById("lolps1");
+	
+		minsps1 = xps1.value;
+
+		secsps1 = minsps1 * 60;
+	
+		
+		countdownps1(xps1,minsps1,secsps1);
+		}
+		function resetps1(){
+		console.log("end");
+		var back = document.getElementById("pss1");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minsps1 = 0;
+		secsps1 = 0;
+		sumapss1 = document.getElementById("sumaps1");
+       	   	sumapss1.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pss1" class="ps1">
+    <br><br><br><br>
+	<p>ps1</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolps1" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="hereps1();">start</button>
+
+	<button onclick="resetps1();">reset</button>
+	<br>
+	
+	
+	<input id="minutesps1" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondsps1" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumaps1" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+<script>
+	
+		function countdownps2() {
+			setTimeout('Decrementps2()', 60);
+		}
+
+		
+		function Decrementps2() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutesps2");
+				secondsps = document.getElementById("secondsps2");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secsps2;
+				}
+
+				
+				else {
+					minutesps.value = getminutesps2();
+					secondsps.value = getsecondsps2();
+				}
+				
+				if (minsps2 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minsps2 < 0) {
+					var back = document.getElementById("pss2");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapss2 = document.getElementById("sumaps2");
+       			    		sumapss2.value = xps2.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secsps2--;
+					setTimeout('Decrementps2()', 1000);
+				}
+			}
+		}
+
+		function getminutesps2() {
+			
+			minsps2 = Math.floor(secsps2 / 60);
+			return minsps2;
+		}
+
+		function getsecondsps2() {
+
+			return secsps2 - Math.round(minsps2 * 60);
+		}
+		
+		
+		function hereps2(){
+		var backps2 = document.getElementById("pss2");
+		backps2.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xps2 = document.getElementById("lolps2");
+	
+		minsps2 = xps2.value;
+
+		secsps2 = minsps2 * 60;
+	
+		
+		countdownps2(xps2,minsps2,secsps2);
+		}
+		function resetps2(){
+		console.log("end");
+		var back = document.getElementById("pss2");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minsps2 = 0;
+		secsps2 = 0;
+		sumapss2 = document.getElementById("sumaps2");
+       	   	sumapss2.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pss2" class="ps2">
+    <br><br><br><br>
+	<p>ps2</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolps2" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="hereps2();">start</button>
+
+	<button onclick="resetps2();">reset</button>
+	<br>
+	
+	
+	<input id="minutesps2" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondsps2" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumaps2" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc1() {
+			setTimeout('Decrementpc1()', 60);
+		}
+
+		
+		function Decrementpc1() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc1");
+				secondsps = document.getElementById("secondspc1");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc1;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc1();
+					secondsps.value = getsecondspc1();
+				}
+				
+				if (minspc1 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc1 < 0) {
+					var back = document.getElementById("pcc1");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc1 = document.getElementById("sumapc1");
+       			    		sumapcc1.value = xpc1.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc1--;
+					setTimeout('Decrementpc1()', 1000);
+				}
+			}
+		}
+
+		function getminutespc1() {
+			
+			minspc1 = Math.floor(secspc1 / 60);
+			return minspc1;
+		}
+
+		function getsecondspc1() {
+
+			return secspc1 - Math.round(minspc1 * 60);
+		}
+		
+		
+		function herepc1(){
+		var backpc1 = document.getElementById("pcc1");
+		backpc1.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc1 = document.getElementById("lolpc1");
+	
+		minspc1 = xpc1.value;
+
+		secspc1 = minspc1 * 60;
+	
+		
+		countdownpc1(xpc1,minspc1,secspc1);
+		}
+		function resetpc1(){
+		console.log("end");
+		var back = document.getElementById("pcc1");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc1 = 0;
+		secspc1 = 0;
+		sumapcc1 = document.getElementById("sumapc1");
+       	   	sumapcc1.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc1" class="pc1">
+    <br><br>
+	<p>pc1</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc1" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc1();">start</button>
+
+	<button onclick="resetpc1();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc1" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc1" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc1" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+
+
+
+
+<script>
+	
+		function countdownpc2() {
+			setTimeout('Decrementpc2()', 60);
+		}
+
+		
+		function Decrementpc2() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc2");
+				secondsps = document.getElementById("secondspc2");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc2;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc2();
+					secondsps.value = getsecondspc2();
+				}
+				
+				if (minspc2 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc2 < 0) {
+					var back = document.getElementById("pcc2");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc2 = document.getElementById("sumapc2");
+       			    		sumapcc2.value = xpc2.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc2--;
+					setTimeout('Decrementpc2()', 1000);
+				}
+			}
+		}
+
+		function getminutespc2() {
+			
+			minspc2 = Math.floor(secspc2 / 60);
+			return minspc2;
+		}
+
+		function getsecondspc2() {
+
+			return secspc2 - Math.round(minspc2 * 60);
+		}
+		
+		
+		function herepc2(){
+		var backpc2 = document.getElementById("pcc2");
+		backpc2.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc2 = document.getElementById("lolpc2");
+	
+		minspc2 = xpc2.value;
+
+		secspc2 = minspc2 * 60;
+	
+		
+		countdownpc2(xpc2,minspc2,secspc2);
+		}
+		function resetpc2(){
+		console.log("end");
+		var back = document.getElementById("pcc2");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc2 = 0;
+		secspc2 = 0;
+		sumapcc2 = document.getElementById("sumapc2");
+       	   	sumapcc2.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc2" class="pc2">
+    <br><br>
+	<p>pc2</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc2" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc2();">start</button>
+
+	<button onclick="resetpc2();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc2" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc2" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc2" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc3() {
+			setTimeout('Decrementpc3()', 60);
+		}
+
+		
+		function Decrementpc3() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc3");
+				secondsps = document.getElementById("secondspc3");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc3;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc3();
+					secondsps.value = getsecondspc3();
+				}
+				
+				if (minspc3 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc3 < 0) {
+					var back = document.getElementById("pcc3");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc3 = document.getElementById("sumapc3");
+       			    		sumapcc3.value = xpc3.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc3--;
+					setTimeout('Decrementpc3()', 1000);
+				}
+			}
+		}
+
+		function getminutespc3() {
+			
+			minspc3 = Math.floor(secspc3 / 60);
+			return minspc3;
+		}
+
+		function getsecondspc3() {
+
+			return secspc3 - Math.round(minspc3 * 60);
+		}
+		
+		
+		function herepc3(){
+		var backpc3 = document.getElementById("pcc3");
+		backpc3.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc3 = document.getElementById("lolpc3");
+	
+		minspc3 = xpc3.value;
+
+		secspc3 = minspc3 * 60;
+	
+		
+		countdownpc3(xpc3,minspc3,secspc3);
+		}
+		function resetpc3(){
+		console.log("end");
+		var back = document.getElementById("pcc3");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc3 = 0;
+		secspc3 = 0;
+		sumapcc3 = document.getElementById("sumapc3");
+       	   	sumapcc3.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc3" class="pc3">
+    <br><br>
+	<p>pc3</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc3" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc3();">start</button>
+
+	<button onclick="resetpc3();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc3" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc3" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc3" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc4() {
+			setTimeout('Decrementpc4()', 60);
+		}
+
+		
+		function Decrementpc4() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc4");
+				secondsps = document.getElementById("secondspc4");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc4;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc4();
+					secondsps.value = getsecondspc4();
+				}
+				
+				if (minspc4 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc4 < 0) {
+					var back = document.getElementById("pcc4");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc4 = document.getElementById("sumapc4");
+       			    		sumapcc4.value = xpc4.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc4--;
+					setTimeout('Decrementpc4()', 1000);
+				}
+			}
+		}
+
+		function getminutespc4() {
+			
+			minspc4 = Math.floor(secspc4 / 60);
+			return minspc4;
+		}
+
+		function getsecondspc4() {
+
+			return secspc4 - Math.round(minspc4 * 60);
+		}
+		
+		
+		function herepc4(){
+		var backpc4 = document.getElementById("pcc4");
+		backpc4.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc4 = document.getElementById("lolpc4");
+	
+		minspc4 = xpc4.value;
+
+		secspc4 = minspc4 * 60;
+	
+		
+		countdownpc4(xpc4,minspc4,secspc4);
+		}
+		function resetpc4(){
+		console.log("end");
+		var back = document.getElementById("pcc4");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc4 = 0;
+		secspc4 = 0;
+		sumapcc4 = document.getElementById("sumapc4");
+       	   	sumapcc4.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc4" class="pc4">
+    <br><br>
+	<p>pc4</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc4" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc4();">start</button>
+
+	<button onclick="resetpc4();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc4" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc4" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc4" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc5() {
+			setTimeout('Decrementpc5()', 60);
+		}
+
+		
+		function Decrementpc5() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc5");
+				secondsps = document.getElementById("secondspc5");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc5;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc5();
+					secondsps.value = getsecondspc5();
+				}
+				
+				if (minspc5 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc5 < 0) {
+					var back = document.getElementById("pcc5");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc5 = document.getElementById("sumapc5");
+       			    		sumapcc5.value = xpc5.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc5--;
+					setTimeout('Decrementpc5()', 1000);
+				}
+			}
+		}
+
+		function getminutespc5() {
+			
+			minspc5 = Math.floor(secspc5 / 60);
+			return minspc5;
+		}
+
+		function getsecondspc5() {
+
+			return secspc5 - Math.round(minspc5 * 60);
+		}
+		
+		
+		function herepc5(){
+		var backpc5 = document.getElementById("pcc5");
+		backpc5.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc5 = document.getElementById("lolpc5");
+	
+		minspc5 = xpc5.value;
+
+		secspc5 = minspc5 * 60;
+	
+		
+		countdownpc5(xpc5,minspc5,secspc5);
+		}
+		function resetpc5(){
+		console.log("end");
+		var back = document.getElementById("pcc5");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc5 = 0;
+		secspc5 = 0;
+		sumapcc5 = document.getElementById("sumapc5");
+       	   	sumapcc5.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc5" class="pc5">
+    <br><br>
+	<p>pc5</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc5" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc5();">start</button>
+
+	<button onclick="resetpc5();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc5" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc5" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc5" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc6() {
+			setTimeout('Decrementpc6()', 60);
+		}
+
+		
+		function Decrementpc6() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc6");
+				secondsps = document.getElementById("secondspc6");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc6;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc6();
+					secondsps.value = getsecondspc6();
+				}
+				
+				if (minspc6 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc6 < 0) {
+					var back = document.getElementById("pcc6");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc6 = document.getElementById("sumapc6");
+       			    		sumapcc6.value = xpc6.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc6--;
+					setTimeout('Decrementpc6()', 1000);
+				}
+			}
+		}
+
+		function getminutespc6() {
+			
+			minspc6 = Math.floor(secspc6 / 60);
+			return minspc6;
+		}
+
+		function getsecondspc6() {
+
+			return secspc6 - Math.round(minspc6 * 60);
+		}
+		
+		
+		function herepc6(){
+		var backpc6 = document.getElementById("pcc6");
+		backpc6.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc6 = document.getElementById("lolpc6");
+	
+		minspc6 = xpc6.value;
+
+		secspc6 = minspc6 * 60;
+	
+		
+		countdownpc6(xpc6,minspc6,secspc6);
+		}
+		function resetpc6(){
+		console.log("end");
+		var back = document.getElementById("pcc6");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc6 = 0;
+		secspc6 = 0;
+		sumapcc6 = document.getElementById("sumapc6");
+       	   	sumapcc6.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc6" class="pc6">
+    <br><br>
+	<p>pc6</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc6" style="width: 100px;" placeholder="Minutes"/>
+	<button onclick="herepc6();">start</button>
+
+	<button onclick="resetpc6();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc6" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc6" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc6" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+<script>
+	
+		function countdownpc7() {
+			setTimeout('Decrementpc7()', 60);
+		}
+
+		
+		function Decrementpc7() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc7");
+				secondsps = document.getElementById("secondspc7");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc7;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc7();
+					secondsps.value = getsecondspc7();
+				}
+				
+				if (minspc7 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc7 < 0) {
+					var back = document.getElementById("pcc7");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc7 = document.getElementById("sumapc7");
+       			    		sumapcc7.value = xpc7.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc7--;
+					setTimeout('Decrementpc7()', 1000);
+				}
+			}
+		}
+
+		function getminutespc7() {
+			
+			minspc7 = Math.floor(secspc7 / 60);
+			return minspc7;
+		}
+
+		function getsecondspc7() {
+
+			return secspc7 - Math.round(minspc7 * 60);
+		}
+		
+		
+		function herepc7(){
+		var backpc7 = document.getElementById("pcc7");
+		backpc7.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc7 = document.getElementById("lolpc7");
+	
+		minspc7 = xpc7.value;
+
+		secspc7 = minspc7 * 60;
+	
+		
+		countdownpc7(xpc7,minspc7,secspc7);
+		}
+		function resetpc7(){
+		console.log("end");
+		var back = document.getElementById("pcc7");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc7 = 0;
+		secspc7 = 0;
+		sumapcc7 = document.getElementById("sumapc7");
+       	   	sumapcc7.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc7" class="pc7">
+  
+	<p>pc7</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc7" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc7();">start</button>
+
+	<button onclick="resetpc7();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc7" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc7" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc7" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc8() {
+			setTimeout('Decrementpc8()', 60);
+		}
+
+		
+		function Decrementpc8() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc8");
+				secondsps = document.getElementById("secondspc8");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc8;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc8();
+					secondsps.value = getsecondspc8();
+				}
+				
+				if (minspc8 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc8 < 0) {
+					var back = document.getElementById("pcc8");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc8 = document.getElementById("sumapc8");
+       			    		sumapcc8.value = xpc8.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc8--;
+					setTimeout('Decrementpc8()', 1000);
+				}
+			}
+		}
+
+		function getminutespc8() {
+			
+			minspc8 = Math.floor(secspc8 / 60);
+			return minspc8;
+		}
+
+		function getsecondspc8() {
+
+			return secspc8 - Math.round(minspc8 * 60);
+		}
+		
+		
+		function herepc8(){
+		var backpc8 = document.getElementById("pcc8");
+		backpc8.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc8 = document.getElementById("lolpc8");
+	
+		minspc8 = xpc8.value;
+
+		secspc8 = minspc8 * 60;
+	
+		
+		countdownpc8(xpc8,minspc8,secspc8);
+		}
+		function resetpc8(){
+		console.log("end");
+		var back = document.getElementById("pcc8");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc8 = 0;
+		secspc8 = 0;
+		sumapcc8 = document.getElementById("sumapc8");
+       	   	sumapcc8.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc8" class="pc8">
+  
+	<p>pc8</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc8" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc8();">start</button>
+
+	<button onclick="resetpc8();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc8" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc8" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc8" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc9() {
+			setTimeout('Decrementpc9()', 60);
+		}
+
+		
+		function Decrementpc9() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc9");
+				secondsps = document.getElementById("secondspc9");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc9;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc9();
+					secondsps.value = getsecondspc9();
+				}
+				
+				if (minspc9 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc9 < 0) {
+					var back = document.getElementById("pcc9");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc9 = document.getElementById("sumapc9");
+       			    		sumapcc9.value = xpc9.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc9--;
+					setTimeout('Decrementpc9()', 1000);
+				}
+			}
+		}
+
+		function getminutespc9() {
+			
+			minspc9 = Math.floor(secspc9 / 60);
+			return minspc9;
+		}
+
+		function getsecondspc9() {
+
+			return secspc9 - Math.round(minspc9 * 60);
+		}
+		
+		
+		function herepc9(){
+		var backpc9 = document.getElementById("pcc9");
+		backpc9.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc9 = document.getElementById("lolpc9");
+	
+		minspc9 = xpc9.value;
+
+		secspc9 = minspc9 * 60;
+	
+		
+		countdownpc9(xpc9,minspc9,secspc9);
+		}
+		function resetpc9(){
+		console.log("end");
+		var back = document.getElementById("pcc9");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc9 = 0;
+		secspc9 = 0;
+		sumapcc9 = document.getElementById("sumapc9");
+       	   	sumapcc9.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc9" class="pc9">
+  
+	<p>pc9</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc9" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc9();">start</button>
+
+	<button onclick="resetpc9();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc9" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc9" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc9" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc10() {
+			setTimeout('Decrementpc10()', 60);
+		}
+
+		
+		function Decrementpc10() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc10");
+				secondsps = document.getElementById("secondspc10");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc10;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc10();
+					secondsps.value = getsecondspc10();
+				}
+				
+				if (minspc10 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc10 < 0) {
+					var back = document.getElementById("pcc10");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc10 = document.getElementById("sumapc10");
+       			    		sumapcc10.value = xpc10.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc10--;
+					setTimeout('Decrementpc10()', 1000);
+				}
+			}
+		}
+
+		function getminutespc10() {
+			
+			minspc10 = Math.floor(secspc10 / 60);
+			return minspc10;
+		}
+
+		function getsecondspc10() {
+
+			return secspc10 - Math.round(minspc10 * 60);
+		}
+		
+		
+		function herepc10(){
+		var backpc10 = document.getElementById("pcc10");
+		backpc10.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc10 = document.getElementById("lolpc10");
+	
+		minspc10 = xpc10.value;
+
+		secspc10 = minspc10 * 60;
+	
+		
+		countdownpc10(xpc10,minspc10,secspc10);
+		}
+		function resetpc10(){
+		console.log("end");
+		var back = document.getElementById("pcc10");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc10 = 0;
+		secspc10 = 0;
+		sumapcc10 = document.getElementById("sumapc10");
+       	   	sumapcc10.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc10" class="pc10">
+  
+	<p>pc10</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc10" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc10();">start</button>
+
+	<button onclick="resetpc10();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc10" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc10" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc10" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc11() {
+			setTimeout('Decrementpc11()', 60);
+		}
+
+		
+		function Decrementpc11() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc11");
+				secondsps = document.getElementById("secondspc11");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc11;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc11();
+					secondsps.value = getsecondspc11();
+				}
+				
+				if (minspc11 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc11 < 0) {
+					var back = document.getElementById("pcc11");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc11 = document.getElementById("sumapc11");
+       			    		sumapcc11.value = xpc11.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc11--;
+					setTimeout('Decrementpc11()', 1000);
+				}
+			}
+		}
+
+		function getminutespc11() {
+			
+			minspc11 = Math.floor(secspc11 / 60);
+			return minspc11;
+		}
+
+		function getsecondspc11() {
+
+			return secspc11 - Math.round(minspc11 * 60);
+		}
+		
+		
+		function herepc11(){
+		var backpc11 = document.getElementById("pcc11");
+		backpc11.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc11 = document.getElementById("lolpc11");
+	
+		minspc11 = xpc11.value;
+
+		secspc11 = minspc11 * 60;
+	
+		
+		countdownpc11(xpc11,minspc11,secspc11);
+		}
+		function resetpc11(){
+		console.log("end");
+		var back = document.getElementById("pcc11");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc11 = 0;
+		secspc11 = 0;
+		sumapcc11 = document.getElementById("sumapc11");
+       	   	sumapcc11.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc11" class="pc11">
+  
+	<p>pc11</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc11" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc11();">start</button>
+
+	<button onclick="resetpc11();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc11" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc11" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc11" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc12() {
+			setTimeout('Decrementpc12()', 60);
+		}
+
+		
+		function Decrementpc12() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc12");
+				secondsps = document.getElementById("secondspc12");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc12;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc12();
+					secondsps.value = getsecondspc12();
+				}
+				
+				if (minspc12 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc12 < 0) {
+					var back = document.getElementById("pcc12");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc12 = document.getElementById("sumapc12");
+       			    		sumapcc12.value = xpc12.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc12--;
+					setTimeout('Decrementpc12()', 1000);
+				}
+			}
+		}
+
+		function getminutespc12() {
+			
+			minspc12 = Math.floor(secspc12 / 60);
+			return minspc12;
+		}
+
+		function getsecondspc12() {
+
+			return secspc12 - Math.round(minspc12 * 60);
+		}
+		
+		
+		function herepc12(){
+		var backpc12 = document.getElementById("pcc12");
+		backpc12.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc12 = document.getElementById("lolpc12");
+	
+		minspc12 = xpc12.value;
+
+		secspc12 = minspc12 * 60;
+	
+		
+		countdownpc12(xpc12,minspc12,secspc12);
+		}
+		function resetpc12(){
+		console.log("end");
+		var back = document.getElementById("pcc12");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc12 = 0;
+		secspc12 = 0;
+		sumapcc12 = document.getElementById("sumapc12");
+       	   	sumapcc12.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc12" class="pc12">
+  
+	<p>pc12</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc12" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc12();">start</button>
+
+	<button onclick="resetpc12();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc12" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc12" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc12" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+<script>
+	
+		function countdownpc13() {
+			setTimeout('Decrementpc13()', 60);
+		}
+
+		
+		function Decrementpc13() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc13");
+				secondsps = document.getElementById("secondspc13");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc13;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc13();
+					secondsps.value = getsecondspc13();
+				}
+				
+				if (minspc13 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc13 < 0) {
+					var back = document.getElementById("pcc13");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc13 = document.getElementById("sumapc13");
+       			    		sumapcc13.value = xpc13.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc13--;
+					setTimeout('Decrementpc13()', 1000);
+				}
+			}
+		}
+
+		function getminutespc13() {
+			
+			minspc13 = Math.floor(secspc13 / 60);
+			return minspc13;
+		}
+
+		function getsecondspc13() {
+
+			return secspc13 - Math.round(minspc13 * 60);
+		}
+		
+		
+		function herepc13(){
+		var backpc13 = document.getElementById("pcc13");
+		backpc13.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc13 = document.getElementById("lolpc13");
+	
+		minspc13 = xpc13.value;
+
+		secspc13 = minspc13 * 60;
+	
+		
+		countdownpc13(xpc13,minspc13,secspc13);
+		}
+		function resetpc13(){
+		console.log("end");
+		var back = document.getElementById("pcc13");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc13 = 0;
+		secspc13 = 0;
+		sumapcc13 = document.getElementById("sumapc13");
+       	   	sumapcc13.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc13" class="pc13">
+  
+	<p>pc13</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc13" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc13();">start</button>
+
+	<button onclick="resetpc13();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc13" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc13" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc13" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	
+		function countdownpc14() {
+			setTimeout('Decrementpc14()', 60);
+		}
+
+		
+		function Decrementpc14() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc14");
+				secondsps = document.getElementById("secondspc14");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc14;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc14();
+					secondsps.value = getsecondspc14();
+				}
+				
+				if (minspc14 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc14 < 0) {
+					var back = document.getElementById("pcc14");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc14 = document.getElementById("sumapc14");
+       			    		sumapcc14.value = xpc14.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc14--;
+					setTimeout('Decrementpc14()', 1000);
+				}
+			}
+		}
+
+		function getminutespc14() {
+			
+			minspc14 = Math.floor(secspc14 / 60);
+			return minspc14;
+		}
+
+		function getsecondspc14() {
+
+			return secspc14 - Math.round(minspc14 * 60);
+		}
+		
+		
+		function herepc14(){
+		var backpc14 = document.getElementById("pcc14");
+		backpc14.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc14 = document.getElementById("lolpc14");
+	
+		minspc14 = xpc14.value;
+
+		secspc14 = minspc14 * 60;
+	
+		
+		countdownpc14(xpc14,minspc14,secspc14);
+		}
+		function resetpc14(){
+		console.log("end");
+		var back = document.getElementById("pcc14");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc14 = 0;
+		secspc14 = 0;
+		sumapcc14 = document.getElementById("sumapc14");
+       	   	sumapcc14.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc14" class="pc14">
+  
+	<p>pc14</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc14" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc14();">start</button>
+
+	<button onclick="resetpc14();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc14" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc14" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc14" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+<script>
+	
+		function countdownpc15() {
+			setTimeout('Decrementpc15()', 60);
+		}
+
+		
+		function Decrementpc15() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc15");
+				secondsps = document.getElementById("secondspc15");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc15;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc15();
+					secondsps.value = getsecondspc15();
+				}
+				
+				if (minspc15 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc15 < 0) {
+					var back = document.getElementById("pcc15");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc15 = document.getElementById("sumapc15");
+       			    		sumapcc15.value = xpc15.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc15--;
+					setTimeout('Decrementpc15()', 1000);
+				}
+			}
+		}
+
+		function getminutespc15() {
+			
+			minspc15 = Math.floor(secspc15 / 60);
+			return minspc15;
+		}
+
+		function getsecondspc15() {
+
+			return secspc15 - Math.round(minspc15 * 60);
+		}
+		
+		
+		function herepc15(){
+		var backpc15 = document.getElementById("pcc15");
+		backpc15.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc15 = document.getElementById("lolpc15");
+	
+		minspc15 = xpc15.value;
+
+		secspc15 = minspc15 * 60;
+	
+		
+		countdownpc15(xpc15,minspc15,secspc15);
+		}
+		function resetpc15(){
+		console.log("end");
+		var back = document.getElementById("pcc15");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc15 = 0;
+		secspc15 = 0;
+		sumapcc15 = document.getElementById("sumapc15");
+       	   	sumapcc15.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc15" class="pc15">
+  
+	<p>pc15</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc15" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc15();">start</button>
+
+	<button onclick="resetpc15();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc15" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc15" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc15" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc16() {
+			setTimeout('Decrementpc16()', 60);
+		}
+
+		
+		function Decrementpc16() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc16");
+				secondsps = document.getElementById("secondspc16");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc16;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc16();
+					secondsps.value = getsecondspc16();
+				}
+				
+				if (minspc16 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc16 < 0) {
+					var back = document.getElementById("pcc16");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc16 = document.getElementById("sumapc16");
+       			    		sumapcc16.value = xpc16.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc16--;
+					setTimeout('Decrementpc16()', 1000);
+				}
+			}
+		}
+
+		function getminutespc16() {
+			
+			minspc16 = Math.floor(secspc16 / 60);
+			return minspc16;
+		}
+
+		function getsecondspc16() {
+
+			return secspc16 - Math.round(minspc16 * 60);
+		}
+		
+		
+		function herepc16(){
+		var backpc16 = document.getElementById("pcc16");
+		backpc16.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc16 = document.getElementById("lolpc16");
+	
+		minspc16 = xpc16.value;
+
+		secspc16 = minspc16 * 60;
+	
+		
+		countdownpc16(xpc16,minspc16,secspc16);
+		}
+		function resetpc16(){
+		console.log("end");
+		var back = document.getElementById("pcc16");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc16 = 0;
+		secspc16 = 0;
+		sumapcc16 = document.getElementById("sumapc16");
+       	   	sumapcc16.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc16" class="pc16">
+  
+	<p>pc16</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc16" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc16();">start</button>
+
+	<button onclick="resetpc16();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc16" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc16" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc16" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc17() {
+			setTimeout('Decrementpc17()', 60);
+		}
+
+		
+		function Decrementpc17() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc17");
+				secondsps = document.getElementById("secondspc17");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc17;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc17();
+					secondsps.value = getsecondspc17();
+				}
+				
+				if (minspc17 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc17 < 0) {
+					var back = document.getElementById("pcc17");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc17 = document.getElementById("sumapc17");
+       			    		sumapcc17.value = xpc17.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc17--;
+					setTimeout('Decrementpc17()', 1000);
+				}
+			}
+		}
+
+		function getminutespc17() {
+			
+			minspc17 = Math.floor(secspc17 / 60);
+			return minspc17;
+		}
+
+		function getsecondspc17() {
+
+			return secspc17 - Math.round(minspc17 * 60);
+		}
+		
+		
+		function herepc17(){
+		var backpc17 = document.getElementById("pcc17");
+		backpc17.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc17 = document.getElementById("lolpc17");
+	
+		minspc17 = xpc17.value;
+
+		secspc17 = minspc17 * 60;
+	
+		
+		countdownpc17(xpc17,minspc17,secspc17);
+		}
+		function resetpc17(){
+		console.log("end");
+		var back = document.getElementById("pcc17");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc17 = 0;
+		secspc17 = 0;
+		sumapcc17 = document.getElementById("sumapc17");
+       	   	sumapcc17.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc17" class="pc17">
+  
+	<p>pc17</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc17" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc17();">start</button>
+
+	<button onclick="resetpc17();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc17" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc17" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc17" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc18() {
+			setTimeout('Decrementpc18()', 60);
+		}
+
+		
+		function Decrementpc18() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc18");
+				secondsps = document.getElementById("secondspc18");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc18;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc18();
+					secondsps.value = getsecondspc18();
+				}
+				
+				if (minspc18 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc18 < 0) {
+					var back = document.getElementById("pcc18");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc18 = document.getElementById("sumapc18");
+       			    		sumapcc18.value = xpc18.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc18--;
+					setTimeout('Decrementpc18()', 1000);
+				}
+			}
+		}
+
+		function getminutespc18() {
+			
+			minspc18 = Math.floor(secspc18 / 60);
+			return minspc18;
+		}
+
+		function getsecondspc18() {
+
+			return secspc18 - Math.round(minspc18 * 60);
+		}
+		
+		
+		function herepc18(){
+		var backpc18 = document.getElementById("pcc18");
+		backpc18.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc18 = document.getElementById("lolpc18");
+	
+		minspc18 = xpc18.value;
+
+		secspc18 = minspc18 * 60;
+	
+		
+		countdownpc18(xpc18,minspc18,secspc18);
+		}
+		function resetpc18(){
+		console.log("end");
+		var back = document.getElementById("pcc18");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc18 = 0;
+		secspc18 = 0;
+		sumapcc18 = document.getElementById("sumapc18");
+       	   	sumapcc18.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc18" class="pc18">
+  
+	<p>pc18</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc18" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc18();">start</button>
+
+	<button onclick="resetpc18();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc18" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc18" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc18" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc19() {
+			setTimeout('Decrementpc19()', 60);
+		}
+
+		
+		function Decrementpc19() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc19");
+				secondsps = document.getElementById("secondspc19");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc19;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc19();
+					secondsps.value = getsecondspc19();
+				}
+				
+				if (minspc19 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc19 < 0) {
+					var back = document.getElementById("pcc19");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc19 = document.getElementById("sumapc19");
+       			    		sumapcc19.value = xpc19.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc19--;
+					setTimeout('Decrementpc19()', 1000);
+				}
+			}
+		}
+
+		function getminutespc19() {
+			
+			minspc19 = Math.floor(secspc19 / 60);
+			return minspc19;
+		}
+
+		function getsecondspc19() {
+
+			return secspc19 - Math.round(minspc19 * 60);
+		}
+		
+		
+		function herepc19(){
+		var backpc19 = document.getElementById("pcc19");
+		backpc19.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc19 = document.getElementById("lolpc19");
+	
+		minspc19 = xpc19.value;
+
+		secspc19 = minspc19 * 60;
+	
+		
+		countdownpc19(xpc19,minspc19,secspc19);
+		}
+		function resetpc19(){
+		console.log("end");
+		var back = document.getElementById("pcc19");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc19 = 0;
+		secspc19 = 0;
+		sumapcc19 = document.getElementById("sumapc19");
+       	   	sumapcc19.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc19" class="pc19">
+  
+	<p>pc19</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc19" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc19();">start</button>
+
+	<button onclick="resetpc19();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc19" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc19" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc19" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc20() {
+			setTimeout('Decrementpc20()', 60);
+		}
+
+		
+		function Decrementpc20() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc20");
+				secondsps = document.getElementById("secondspc20");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc20;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc20();
+					secondsps.value = getsecondspc20();
+				}
+				
+				if (minspc20 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc20 < 0) {
+					var back = document.getElementById("pcc20");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc20 = document.getElementById("sumapc20");
+       			    		sumapcc20.value = xpc20.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc20--;
+					setTimeout('Decrementpc20()', 1000);
+				}
+			}
+		}
+
+		function getminutespc20() {
+			
+			minspc20 = Math.floor(secspc20 / 60);
+			return minspc20;
+		}
+
+		function getsecondspc20() {
+
+			return secspc20 - Math.round(minspc20 * 60);
+		}
+		
+		
+		function herepc20(){
+		var backpc20 = document.getElementById("pcc20");
+		backpc20.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc20 = document.getElementById("lolpc20");
+	
+		minspc20 = xpc20.value;
+
+		secspc20 = minspc20 * 60;
+	
+		
+		countdownpc20(xpc20,minspc20,secspc20);
+		}
+		function resetpc20(){
+		console.log("end");
+		var back = document.getElementById("pcc20");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc20 = 0;
+		secspc20 = 0;
+		sumapcc20 = document.getElementById("sumapc20");
+       	   	sumapcc20.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc20" class="pc20">
+  
+	<p>pc20</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc20" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc20();">start</button>
+
+	<button onclick="resetpc20();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc20" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc20" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc20" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+<script>
+	
+		function countdownpc21() {
+			setTimeout('Decrementpc21()', 60);
+		}
+
+		
+		function Decrementpc21() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc21");
+				secondsps = document.getElementById("secondspc21");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc21;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc21();
+					secondsps.value = getsecondspc21();
+				}
+				
+				if (minspc21 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc21 < 0) {
+					var back = document.getElementById("pcc21");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc21 = document.getElementById("sumapc21");
+       			    		sumapcc21.value = xpc21.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc21--;
+					setTimeout('Decrementpc21()', 1000);
+				}
+			}
+		}
+
+		function getminutespc21() {
+			
+			minspc21 = Math.floor(secspc21 / 60);
+			return minspc21;
+		}
+
+		function getsecondspc21() {
+
+			return secspc21 - Math.round(minspc21 * 60);
+		}
+		
+		
+		function herepc21(){
+		var backpc21 = document.getElementById("pcc21");
+		backpc21.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc21 = document.getElementById("lolpc21");
+	
+		minspc21 = xpc21.value;
+
+		secspc21 = minspc21 * 60;
+	
+		
+		countdownpc21(xpc21,minspc21,secspc21);
+		}
+		function resetpc21(){
+		console.log("end");
+		var back = document.getElementById("pcc21");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc21 = 0;
+		secspc21 = 0;
+		sumapcc21 = document.getElementById("sumapc21");
+       	   	sumapcc21.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc21" class="pc21">
+  
+	<p>pc21</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc21" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc21();">start</button>
+
+	<button onclick="resetpc21();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc21" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc21" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc21" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc22() {
+			setTimeout('Decrementpc22()', 60);
+		}
+
+		
+		function Decrementpc22() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc22");
+				secondsps = document.getElementById("secondspc22");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc22;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc22();
+					secondsps.value = getsecondspc22();
+				}
+				
+				if (minspc22 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc22 < 0) {
+					var back = document.getElementById("pcc22");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc22 = document.getElementById("sumapc22");
+       			    		sumapcc22.value = xpc22.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc22--;
+					setTimeout('Decrementpc22()', 1000);
+				}
+			}
+		}
+
+		function getminutespc22() {
+			
+			minspc22 = Math.floor(secspc22 / 60);
+			return minspc22;
+		}
+
+		function getsecondspc22() {
+
+			return secspc22 - Math.round(minspc22 * 60);
+		}
+		
+		
+		function herepc22(){
+		var backpc22 = document.getElementById("pcc22");
+		backpc22.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc22 = document.getElementById("lolpc22");
+	
+		minspc22 = xpc22.value;
+
+		secspc22 = minspc22 * 60;
+	
+		
+		countdownpc22(xpc22,minspc22,secspc22);
+		}
+		function resetpc22(){
+		console.log("end");
+		var back = document.getElementById("pcc22");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc22 = 0;
+		secspc22 = 0;
+		sumapcc22 = document.getElementById("sumapc22");
+       	   	sumapcc22.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc22" class="pc22">
+  
+	<p>pc22</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc22" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc22();">start</button>
+
+	<button onclick="resetpc22();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc22" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc22" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc22" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+<script>
+	
+		function countdownpc23() {
+			setTimeout('Decrementpc23()', 60);
+		}
+
+		
+		function Decrementpc23() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc23");
+				secondsps = document.getElementById("secondspc23");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc23;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc23();
+					secondsps.value = getsecondspc23();
+				}
+				
+				if (minspc23 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc23 < 0) {
+					var back = document.getElementById("pcc23");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc23 = document.getElementById("sumapc23");
+       			    		sumapcc23.value = xpc23.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc23--;
+					setTimeout('Decrementpc23()', 1000);
+				}
+			}
+		}
+
+		function getminutespc23() {
+			
+			minspc23 = Math.floor(secspc23 / 60);
+			return minspc23;
+		}
+
+		function getsecondspc23() {
+
+			return secspc23 - Math.round(minspc23 * 60);
+		}
+		
+		
+		function herepc23(){
+		var backpc23 = document.getElementById("pcc23");
+		backpc23.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc23 = document.getElementById("lolpc23");
+	
+		minspc23 = xpc23.value;
+
+		secspc23 = minspc23 * 60;
+	
+		
+		countdownpc23(xpc23,minspc23,secspc23);
+		}
+		function resetpc23(){
+		console.log("end");
+		var back = document.getElementById("pcc23");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc23 = 0;
+		secspc23 = 0;
+		sumapcc23 = document.getElementById("sumapc23");
+       	   	sumapcc23.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc23" class="pc23">
+  
+	<p>pc23</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc23" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc23();">start</button>
+
+	<button onclick="resetpc23();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc23" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc23" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc23" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+<script>
+	
+		function countdownpc24() {
+			setTimeout('Decrementpc24()', 60);
+		}
+
+		
+		function Decrementpc24() {
+			if (document.getElementById) {
+				minutesps = document.getElementById("minutespc24");
+				secondsps = document.getElementById("secondspc24");
+
+				
+				if (secondsps < 59) {
+					secondsps.value = secspc24;
+				}
+
+				
+				else {
+					minutesps.value = getminutespc24();
+					secondsps.value = getsecondspc24();
+				}
+				
+				if (minspc24 < 1) {
+					minutesps.style.color = "red";
+					secondsps.style.color = "red";
+				}
+				
+				if (minspc24 < 0) {
+					var back = document.getElementById("pcc24");
+					back.style.backgroundColor = "rgba(255,0,0,0.4)";
+					minutesps.value = 0;
+					secondsps.value = 0;
+					sumapcc24 = document.getElementById("sumapc24");
+       			    		sumapcc24.value = xpc24.value + " dinara";
+       			    		var audio = new Audio('alarm.wav');
+					audio.play();
+				}
+				
+				else {
+					secspc24--;
+					setTimeout('Decrementpc24()', 1000);
+				}
+			}
+		}
+
+		function getminutespc24() {
+			
+			minspc24 = Math.floor(secspc24 / 60);
+			return minspc24;
+		}
+
+		function getsecondspc24() {
+
+			return secspc24 - Math.round(minspc24 * 60);
+		}
+		
+		
+		function herepc24(){
+		var backpc24 = document.getElementById("pcc24");
+		backpc24.style.backgroundColor = "rgba(0,100,0,0.4)";	
+		xpc24 = document.getElementById("lolpc24");
+	
+		minspc24 = xpc24.value;
+
+		secspc24 = minspc24 * 60;
+	
+		
+		countdownpc24(xpc24,minspc24,secspc24);
+		}
+		function resetpc24(){
+		console.log("end");
+		var back = document.getElementById("pcc24");
+		back.style.backgroundColor = "rgba(255,255,255,0.4)";
+		x = 0;
+		minspc24 = 0;
+		secspc24 = 0;
+		sumapcc24 = document.getElementById("sumapc24");
+       	   	sumapcc24.value = "";
+       	   	
+		}
+
+</script>
+
+<div id="pcc24" class="pc24">
+  
+	<p>pc24</p>
+       	
+	
+   	<input type="text" name="enter" class="enter" value="" id="lolpc24" style="width: 100px;" placeholder="Minutes"/>
+   	<br>
+	<button onclick="herepc24();">start</button>
+
+	<button onclick="resetpc24();">reset</button>
+	<br>
+	
+	
+	<input id="minutespc24" type="text" style="width: 30px; color: black; font-weight: bold;"><font size="5"> : </font>
+		<input id="secondspc24" type="text" style="width: 30px; color: black; font-weight: bold;">
+		<br>
+	<input id="sumapc24" style="background: rgba(255, 255, 255, 0.0); color: black; width: 80px; border: none; font-size: 15px;"></input>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+

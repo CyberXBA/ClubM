@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>InternetClubManagement v1</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+<style>
+body, p {
+background-color: black;
+font-family: "Lucida Console";
+line-height: 30px;
+font-size: 30px;
+</style>
+</head>
+<body>
+
+<center>
+<div id="myDiv">
+<span  style='font-family: "Lucida Console";line-height: 30px;font-size: 30px;display: inline-block;'>▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄<br>██░▄▄▀██░▄▄▄██░▄▄▄░██░█▀▄██░▄▄▄░██<br>██░▄▄▀██░▄▄▄██▄▄▄▀▀██░▄▀███░███░██<br>██░▀▀░██░▀▀▀██░▀▀▀░██░██░██░▀▀▀░██<br>▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ <br></span><p>internet club management v1.0 (besko)</p>
+<p style="color: white; font-size 7px">for best experience please use this app in fullscreen mode (F11).</p>
+<a href="internetclubmanagement.html"><button style="padding-left: 20px; padding-right: 20px; padding-top: 5px; padding-bottom: 5px; ">start</button></a>
+</div>
+<div style="height: 665px">
+</div>
+<p style="color: white;">thank you</p>
+
+</center>
+
+
+<script>
+ 	element = document.getElementById("myDiv");
+   function sleep(milliseconds) {  
+      return new Promise(resolve => setTimeout(resolve, milliseconds));  
+   }  
+   fun();
+   
+   
+   async function fun() {  
+          		            
+    		        
+    		            element.style.color = "red";         
+         await sleep(1000);  
+           		   
+    		            element.style.color = "white";
+    		await sleep(1000);              
+    		           
+    		            element.style.color = "red";         
+         await sleep(1000);  
+           		    
+    		            element.style.color = "white";
+    		await sleep(1000);
+    		fun();      		           
+         
+      }  
+
+</script>
+</body>
+</html>
+
